@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "7C32F8E3-06D8-4F2C-B1ED-9206F2B885B8"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4C790FE2-9D87-4255-8D9E-B95E0D49366B"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Jobs/JobManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "26"
+            endingLineNumber = "26"
+            landmarkName = "loadJobsAsync()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "ACC66753-6115-4737-A7AE-4D4A5AF34424"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Jobs/JobManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "31"
+            endingLineNumber = "31"
+            landmarkName = "loadJobsAsync()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "ACC66753-6115-4737-A7AE-4D4A5AF34424 - dc613f0eac6786ce"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for Jobs.JobManager.loadJobsAsync() async -&gt; Swift.Array&lt;Jobs.Job&gt;"
+                  moduleName = "Jobs"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/wieseWork/workspace/Jobs/Jobs/JobManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "31"
+                  endingLineNumber = "31"
+                  offsetFromSymbolStart = "226">
+               </Location>
+               <Location
+                  uuid = "ACC66753-6115-4737-A7AE-4D4A5AF34424 - 2dd654989592c649"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(2) await resume partial function for Jobs.JobManager.loadJobsAsync() async -&gt; Swift.Array&lt;Jobs.Job&gt;"
+                  moduleName = "Jobs"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/wieseWork/workspace/Jobs/Jobs/JobManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "31"
+                  endingLineNumber = "31"
+                  offsetFromSymbolStart = "48">
+               </Location>
+               <Location
+                  uuid = "ACC66753-6115-4737-A7AE-4D4A5AF34424 - 16e93a0888b1fa40"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for Jobs.JobManager.loadJobsAsync() async -&gt; Swift.Array&lt;Jobs.Job&gt;"
+                  moduleName = "Jobs"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/wieseWork/workspace/Jobs/Jobs/JobManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "31"
+                  endingLineNumber = "31"
+                  offsetFromSymbolStart = "42">
+               </Location>
+               <Location
+                  uuid = "ACC66753-6115-4737-A7AE-4D4A5AF34424 - 3435249786a61c03"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(4) suspend resume partial function for Jobs.JobManager.loadJobsAsync() async -&gt; Swift.Array&lt;Jobs.Job&gt;"
+                  moduleName = "Jobs"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/wieseWork/workspace/Jobs/Jobs/JobManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "31"
+                  endingLineNumber = "31"
+                  offsetFromSymbolStart = "70">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0217A237-940E-4A9B-B058-E22E30D31E2E"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Jobs/JobManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "41"
+            endingLineNumber = "41"
+            landmarkName = "parse(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
