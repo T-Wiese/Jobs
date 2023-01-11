@@ -7,30 +7,32 @@
 
 import Foundation
 
-
-struct JobManager {
-    
+class JobManager {
+    static let shared = JobManager()
     let urlString = "https://ios-interview.joinhandshake-internal.com/jobs"
     var jobs: [Job] = []
+    var isSearching = false
     
-    mutating func loadJobs() -> [Job] {
+    func loadJobs() -> [Job] {
         if let url = URL(string: urlString) {
             if let data = try? Data(contentsOf: url) {
                 jobs = parse(data)
+                return jobs
             }
         }
         return []
     }
     
-    mutating func loadJobsAsync() async -> [Job] {
+    func loadJobsAsync() async -> [Job] {
         guard let url = URL(string: urlString) else {
             print("Invalid URL")
             return []
         }
         do {
             let (data, _) = try await URLSession.shared.data(from: url)
-            self.jobs = parse(data)
-            return self.jobs
+            jobs = parse(data)
+            return jobs
+
         } catch {
             print(error)
         }
